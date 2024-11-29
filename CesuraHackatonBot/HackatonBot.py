@@ -241,10 +241,6 @@ def handle_message(message):
     else:
         print(message.text)
 
-@bot.message_handler()
-def hengle_message(message):
-    
-
 
 bot.infinity_polling(none_stop=True)
 
